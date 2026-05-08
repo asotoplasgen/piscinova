@@ -87,8 +87,8 @@ export default function App() {
         <FinalCta whatsappLink={buildWhatsAppLink(finalWhatsappMessage)} />
       </main>
       <footer>
-        Piscinova · Mantenimiento de piscinas particulares · Solicitudes por
-        formulario y WhatsApp
+        Piscinova {"\u00b7"} Mantenimiento de piscinas particulares {"\u00b7"}{" "}
+        Solicitudes por formulario y WhatsApp
       </footer>
       <BackToTopButton />
     </>

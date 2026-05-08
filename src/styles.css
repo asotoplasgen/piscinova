@@ -172,12 +172,7 @@ p {
   width: 250px;
   max-width: 100%;
   height: auto;
-}
-
-.logo-piscinova text {
-  paint-order: stroke;
-  stroke: rgba(8, 47, 73, 0.22);
-  stroke-width: 1px;
+  filter: drop-shadow(0 16px 34px rgba(8, 47, 73, 0.22));
 }
 
 .menu {
