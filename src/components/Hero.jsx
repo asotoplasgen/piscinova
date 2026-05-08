@@ -37,7 +37,12 @@ export default function Hero({ primaryCta, secondaryCta }) {
             </div>
 
             <div className="acciones">
-              <a className="boton boton-blanco" href={primaryCta}>
+              <a
+                className="boton boton-whatsapp"
+                href={primaryCta}
+                target="_blank"
+                rel="noreferrer"
+              >
                 Consultar disponibilidad
               </a>
               <a className="boton boton-transparente" href={secondaryCta}>
@@ -59,21 +64,6 @@ export default function Hero({ primaryCta, secondaryCta }) {
                 Piscinova Relax
               </div>
             </div>
-
-            <div className="hero-resumen">
-              <div className="hero-kpi">
-                <strong>3 planes claros</strong>
-                <span>Desde guiado hasta semanal</span>
-              </div>
-              <div className="hero-kpi">
-                <strong>Zona privada</strong>
-                <span>Controles y visitas visibles</span>
-              </div>
-              <div className="hero-kpi">
-                <strong>Ruta limitada</strong>
-                <span>Menos promesas y más orden</span>
-              </div>
-            </div>
           </div>
 
           <aside className="hero-card">
@@ -84,55 +74,48 @@ export default function Hero({ primaryCta, secondaryCta }) {
 
             <div className="hero-foto">
               <SmartImage
-                src="https://unsplash.com/photos/zcQFERnpYxk/download?force=true"
-                alt="Piscina privada limpia con agua azul"
+                src="/assets/piscina-limpia-hero.jpg"
+                alt="Piscina particular limpia y lista para el verano"
                 placeholderTitle="Piscina limpia hero"
                 loading="eager"
               />
               <span className="foto-chip">Piscina lista todo el verano</span>
             </div>
-            <div className="subtitulo">Planes de verano</div>
-            <h2>Elige cuánto quieres implicarte</h2>
+
+            <div className="subtitulo">Plan recomendado</div>
+            <h2>Piscinova Relax</h2>
             <p className="gris hero-side-copy">
-              Desde seguimiento online hasta mantenimiento semanal completo. Tú
-              decides cuánto quieres ocuparte de la piscina.
+              La opción para olvidarte del mantenimiento semanal y tener la piscina
+              preparada cada vez que llegas.
             </p>
 
             <div className="precio-box">
-              <div className="precio-label">Plan recomendado: Piscinova Relax</div>
+              <div className="precio-label">Mantenimiento semanal presencial</div>
               <div className="precio">
                 <strong>129€</strong>
                 <span>/ mes</span>
               </div>
-              <p className="pequeno">
-                Mantenimiento semanal presencial - piscina estándar
-              </p>
+              <p className="pequeno">Precio orientativo para piscina estándar</p>
             </div>
 
             <div className="lista">
               <div className="item-lista">
                 <span className="tick">✓</span>
-                Piscinova Guía: 39€/mes
+                1 visita semanal programada
               </div>
               <div className="item-lista">
                 <span className="tick">✓</span>
-                Piscinova Punto: 89€/mes
+                Control de pH y cloro
               </div>
               <div className="item-lista">
                 <span className="tick">✓</span>
-                Piscinova Relax: 129€/mes
+                Limpieza de superficie, skimmers y cestos
               </div>
               <div className="item-lista">
                 <span className="tick">✓</span>
-                Zona privada incluida según plan
-              </div>
-              <div className="item-lista">
-                <span className="tick">✓</span>
-                Consulta por WhatsApp antes de contratar
+                Parte por WhatsApp y zona privada
               </div>
             </div>
-
-            <p className="pequeno hero-credit">Foto: Alex Tyson en Unsplash</p>
           </aside>
         </div>
       </div>

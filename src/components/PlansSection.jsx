@@ -16,8 +16,8 @@ export default function PlansSection({ plans }) {
           <div className="subtitulo">Planes Piscinova</div>
           <h2>Elige si quieres hacerlo tú, apoyarte un poco o olvidarte del tema</h2>
           <p>
-            Los tres planes comparten una misma idea: mantener la piscina controlada
-            antes de que aparezcan problemas caros.
+            Los tres planes comparten una misma idea: controlar la piscina antes de
+            que aparezcan problemas caros.
           </p>
         </div>
 
@@ -79,8 +79,8 @@ export default function PlansSection({ plans }) {
               <p className="gris">Vista resumida para decidir sin leer todo el detalle.</p>
             </div>
             <p className="pequeno">
-              Precios para piscina estándar. Recuperaciones, averías y visitas fuera
-              de ruta van aparte.
+              Puesta a punto, agua verde, averías, piezas y visitas fuera de ruta se
+              valoran aparte.
             </p>
           </div>
 

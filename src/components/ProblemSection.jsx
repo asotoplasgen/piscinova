@@ -1,14 +1,14 @@
 export default function ProblemSection() {
   const cards = [
     {
-      icon: "Alerta",
+      icon: "Aviso",
       title: "El problema no es limpiar",
       text: "El problema es acordarte siempre, hacerlo bien y detectar a tiempo cuando algo empieza a fallar."
     },
     {
       icon: "Semana",
       title: "Cada semana cuenta",
-      text: "Una visita semanal evita muchos disgustos y reduce el riesgo de acabar pagando una recuperación completa."
+      text: "Una visita periódica evita muchos disgustos y reduce el riesgo de acabar pagando una recuperación completa."
     },
     {
       icon: "Control",

@@ -5,7 +5,7 @@ export default function RoutesSection() {
     "Plazas limitadas por zona",
     "Productos incluidos solo en consumo normal según plan",
     "Agua verde o piscina muy deteriorada: presupuesto aparte",
-    "Averías, piezas, cambio de arena o vidrio y reparaciones: aparte",
+    "Averías, piezas, cambio de arena o vidrio: aparte",
     "Visitas fuera de ruta: según disponibilidad"
   ];
 

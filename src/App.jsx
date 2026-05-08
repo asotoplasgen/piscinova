@@ -1,5 +1,10 @@
 import { useEffect } from "react";
 import { plans } from "./data/plans";
+import {
+  buildWhatsAppLink,
+  finalWhatsappMessage,
+  heroWhatsappMessage
+} from "./config";
 import Hero from "./components/Hero";
 import ProblemSection from "./components/ProblemSection";
 import GoalSection from "./components/GoalSection";
@@ -13,7 +18,7 @@ import FinalCta from "./components/FinalCta";
 import BackToTopButton from "./components/BackToTopButton";
 import ContactSection from "./components/ContactSection";
 
-function scrollSlowTo(targetY, duration = 1100) {
+function scrollSlowTo(targetY, duration = 900) {
   const startY = window.pageYOffset;
   const distance = targetY - startY;
   const startTime = performance.now();
@@ -65,20 +70,10 @@ export default function App() {
 
   return (
     <>
-      <div className="site-ambience" aria-hidden="true">
-        <div className="ambient-glow ambient-glow-left" />
-        <div className="ambient-glow ambient-glow-right" />
-        <div className="ambient-floater">
-          <span className="ambient-floater-ring" />
-          <span className="ambient-floater-cap" />
-        </div>
-        <div className="ambient-cleaner">
-          <span className="ambient-cleaner-head" />
-          <span className="ambient-cleaner-line" />
-          <span className="ambient-cleaner-bubbles" />
-        </div>
-      </div>
-      <Hero primaryCta="#contacto" secondaryCta="#planes" />
+      <Hero
+        primaryCta={buildWhatsAppLink(heroWhatsappMessage)}
+        secondaryCta="#planes"
+      />
       <main>
         <ProblemSection />
         <GoalSection />
@@ -89,10 +84,10 @@ export default function App() {
         <RoutesSection />
         <FaqSection />
         <ContactSection />
-        <FinalCta />
+        <FinalCta whatsappLink={buildWhatsAppLink(finalWhatsappMessage)} />
       </main>
       <footer>
-        Piscinova - Mantenimiento de piscinas particulares - Solicitudes por
+        Piscinova · Mantenimiento de piscinas particulares · Solicitudes por
         formulario y WhatsApp
       </footer>
       <BackToTopButton />

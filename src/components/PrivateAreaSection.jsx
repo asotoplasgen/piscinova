@@ -13,7 +13,7 @@ export default function PrivateAreaSection() {
       <div className="container split">
         <div>
           <div className="subtitulo">Zona privada</div>
-          <h2>No tienes que fiarte de un ya está hecho. Puedes verlo.</h2>
+          <h2>No tienes que fiarte de un “ya está hecho”. Puedes verlo.</h2>
           <p>
             La zona privada convierte el mantenimiento en algo visible. Tú sabes qué
             se revisó, cuándo se hizo y si hay algo que conviene corregir antes de que
@@ -32,13 +32,13 @@ export default function PrivateAreaSection() {
         <aside className="precio-card panel-privada">
           <div className="panel-mini">
             <span className="panel-tag">Último control</span>
-            <strong>pH estable - cloro correcto</strong>
+            <strong>pH estable · cloro correcto</strong>
             <p>Registro guardado con observaciones y hora de la visita.</p>
           </div>
           <div className="panel-mini">
             <span className="panel-tag">Próximo mantenimiento</span>
             <strong>Programado en ruta</strong>
-            <p>Tu piscina entra en planning y deja de depender del ya pasaré.</p>
+            <p>Tu piscina entra en planning y deja de depender del “ya pasaré”.</p>
           </div>
           <div className="panel-mini">
             <span className="panel-tag">Incidencias</span>

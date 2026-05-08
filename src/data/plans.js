@@ -3,9 +3,9 @@ export const plans = [
     name: "Piscinova Guía",
     type: "Plan Online",
     price: "39€",
-    frequency: "/ mes",
+    frequency: "/mes",
     badge: "Para hacerlo tú",
-    subtitle: "Control guiado - Tú haces el trabajo. Nosotros te guiamos.",
+    subtitle: "Tú haces el trabajo. Nosotros te guiamos.",
     description:
       "Para quien quiere mantener la piscina por su cuenta, pero con seguimiento y criterio profesional.",
     ideal:
@@ -14,7 +14,7 @@ export const plans = [
     levelValue: 35,
     ctaLabel: "Quiero este plan",
     cardClassName: "plan-online",
-    buttonClassName: "boton-outline boton-online",
+    buttonClassName: "boton boton-outline boton-online",
     features: [
       "Acceso a zona privada",
       "Registro de controles por el cliente",
@@ -27,18 +27,18 @@ export const plans = [
     name: "Piscinova Punto",
     type: "Plan Quincenal",
     price: "89€",
-    frequency: "/ mes",
+    frequency: "/mes",
     badge: "Apoyo presencial",
-    subtitle: "Refuerzo presencial - Una revisión cada 15 días para no ir a ciegas.",
+    subtitle: "Una revisión cada 15 días para no ir a ciegas.",
     description:
-      "Para piscinas pequeñas o propietarios que hacen parte del mantenimiento, pero quieren una revisión presencial cada dos semanas.",
+      "Para piscinas pequeñas o clientes que hacen parte del mantenimiento, pero quieren una revisión presencial periódica.",
     ideal:
       "Piscinas pequeñas o clientes que hacen mantenimiento básico entre visitas.",
     level: "Media",
     levelValue: 65,
     ctaLabel: "Consultar este plan",
     cardClassName: "plan-punto",
-    buttonClassName: "boton-outline boton-punto",
+    buttonClassName: "boton boton-outline boton-punto",
     features: [
       "1 visita cada 15 días",
       "Control básico de pH y cloro",
@@ -51,10 +51,10 @@ export const plans = [
     name: "Piscinova Relax",
     type: "Plan Semanal",
     price: "129€",
-    frequency: "/ mes",
+    frequency: "/mes",
     badge: "Para olvidarte",
     recommended: true,
-    subtitle: "Piscina lista - La opción para abrir la puerta y bañarte.",
+    subtitle: "La opción para abrir la puerta y bañarte.",
     description:
       "Para quien quiere olvidarse del mantenimiento semanal y tener la piscina controlada durante todo el verano.",
     ideal:

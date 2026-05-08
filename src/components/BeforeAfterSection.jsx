@@ -5,45 +5,64 @@ export default function BeforeAfterSection() {
     <section className="seccion-blanca">
       <div className="container">
         <div className="cabecera">
-          <div className="subtitulo">Mantenimiento real</div>
-          <h2>No hace falta esperar a una emergencia para que una piscina dé trabajo.</h2>
+          <div className="subtitulo">Puesta a punto</div>
+          <h2>Si el agua ya está mal, no hablamos de mantenimiento. Hablamos de rescate.</h2>
           <p>
-            Mejor enseñar cuidado real, limpieza y seguimiento que vender una idea
-            abstracta. Esto se entiende más rápido y transmite oficio.
+            La recuperación de agua verde, la puesta a punto inicial y los
+            tratamientos extraordinarios se valoran aparte. Mejor prevenir que llegar
+            a ese punto en plena temporada.
           </p>
         </div>
 
         <div className="antes-despues-grid">
           <article className="antes-despues-card">
             <SmartImage
-              src="https://unsplash.com/photos/cC7Ko9jr3aY/download?force=true"
-              alt="Operario realizando mantenimiento en una piscina"
-              placeholderTitle="Mantenimiento piscina"
+              src="/assets/piscina-sucia-1.jpg"
+              alt="Piscina con agua deteriorada y necesidad de rescate"
+              placeholderTitle="Piscina sucia 1"
               loading="lazy"
             />
             <div>
-              <span className="antes-label">Mantenimiento</span>
-              <h3>Control y limpieza de verdad</h3>
+              <span className="antes-label">Antes</span>
+              <h3>Agua verde o muy deteriorada</h3>
               <p>
-                La piscina no se conserva sola. Lo que más vende aquí es mostrar que
-                hay trabajo real detrás: revisión, limpieza y rutina.
+                Cuando la piscina llega a este punto hace falta un tratamiento extra,
+                más tiempo y más producto. No entra como mantenimiento normal.
               </p>
             </div>
           </article>
 
           <article className="antes-despues-card">
             <SmartImage
-              src="https://unsplash.com/photos/IEvt175Ndwo/download?force=true"
-              alt="Limpieza manual de piscina con recogehojas"
-              placeholderTitle="Limpieza piscina"
+              src="/assets/antes-despues.jpg"
+              alt="Comparativa antes y después de una piscina recuperada"
+              placeholderTitle="Antes y después"
               loading="lazy"
             />
             <div>
-              <span className="despues-label">Seguimiento</span>
-              <h3>Piscina lista para usarla, no para rescatarla</h3>
+              <span className="despues-label">Después</span>
+              <h3>Recuperar sale más caro que mantener</h3>
               <p>
-                El objetivo no es una gran recuperación en agosto. El objetivo es no
-                tener que llegar a ese punto en plena temporada.
+                El objetivo de Piscinova es que no tengas que rescatar la piscina en
+                agosto, sino mantenerla lista todo el verano.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div className="galeria-simple">
+          <article className="foto-card">
+            <SmartImage
+              src="/assets/piscina-sucia-2.jpg"
+              alt="Piscina con suciedad y escalones con agua deteriorada"
+              placeholderTitle="Piscina sucia 2"
+              loading="lazy"
+            />
+            <div>
+              <h3>El agua no avisa</h3>
+              <p>
+                Hojas, calor, cloro bajo, bañistas o una depuradora mal programada
+                bastan para torcer la piscina justo cuando más quieres usarla.
               </p>
             </div>
           </article>

@@ -1,4 +1,4 @@
-export default function FinalCta() {
+export default function FinalCta({ whatsappLink }) {
   return (
     <section className="cta">
       <div className="container">
@@ -7,11 +7,21 @@ export default function FinalCta() {
           <h2>Este verano puedes cuidar la piscina tú o puedes bañarte en ella.</h2>
           <p>
             Si quieres saber qué plan encaja contigo y si estamos cubriendo tu zona,
-            deja tu solicitud y te escribimos.
+            escríbenos por WhatsApp o deja tu solicitud en el formulario.
           </p>
-          <a className="boton boton-blanco" href="#contacto">
-            Pedir propuesta
-          </a>
+          <div className="acciones acciones-centradas">
+            <a
+              className="boton boton-whatsapp"
+              href={whatsappLink}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Hablar por WhatsApp
+            </a>
+            <a className="boton boton-transparente" href="#contacto">
+              Rellenar formulario
+            </a>
+          </div>
         </div>
       </div>
     </section>
