@@ -1,5 +1,3 @@
-import SmartImage from "./SmartImage";
-
 export default function BeforeAfterSection() {
   return (
     <section className="seccion-blanca">
@@ -16,12 +14,12 @@ export default function BeforeAfterSection() {
 
         <div className="antes-despues-grid">
           <article className="antes-despues-card">
-            <SmartImage
-              src="/assets/piscina-sucia-1.jpg"
-              alt="Piscina con agua deteriorada y necesidad de rescate"
-              placeholderTitle="Piscina sucia 1"
-              loading="lazy"
-            />
+            <div className="estado-visual estado-visual-antes" aria-hidden="true">
+              <div className="estado-visual-water" />
+              <div className="estado-visual-leaf estado-visual-leaf-1" />
+              <div className="estado-visual-leaf estado-visual-leaf-2" />
+              <div className="estado-visual-leaf estado-visual-leaf-3" />
+            </div>
             <div>
               <span className="antes-label">Antes</span>
               <h3>Agua verde o muy deteriorada</h3>
@@ -33,12 +31,11 @@ export default function BeforeAfterSection() {
           </article>
 
           <article className="antes-despues-card">
-            <SmartImage
-              src="/assets/antes-despues.jpg"
-              alt="Comparativa antes y después de una piscina recuperada"
-              placeholderTitle="Antes y después"
-              loading="lazy"
-            />
+            <div className="estado-visual estado-visual-despues" aria-hidden="true">
+              <div className="estado-visual-water" />
+              <div className="estado-visual-glow" />
+              <div className="estado-visual-ring" />
+            </div>
             <div>
               <span className="despues-label">Después</span>
               <h3>Recuperar sale más caro que mantener</h3>
@@ -52,12 +49,10 @@ export default function BeforeAfterSection() {
 
         <div className="galeria-simple">
           <article className="foto-card">
-            <SmartImage
-              src="/assets/piscina-sucia-2.jpg"
-              alt="Piscina con suciedad y escalones con agua deteriorada"
-              placeholderTitle="Piscina sucia 2"
-              loading="lazy"
-            />
+            <div className="estado-visual estado-visual-riesgo" aria-hidden="true">
+              <div className="estado-visual-water" />
+              <div className="estado-visual-shadow" />
+            </div>
             <div>
               <h3>El agua no avisa</h3>
               <p>

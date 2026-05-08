@@ -1,5 +1,4 @@
 import Logo from "./Logo";
-import SmartImage from "./SmartImage";
 
 export default function Hero({ primaryCta, secondaryCta }) {
   return (
@@ -72,14 +71,13 @@ export default function Hero({ primaryCta, secondaryCta }) {
               <span className="hero-card-note">Servicio particular</span>
             </div>
 
-            <div className="hero-foto">
-              <SmartImage
-                src="/assets/piscina-limpia-hero.jpg"
-                alt="Piscina particular limpia y lista para el verano"
-                placeholderTitle="Piscina limpia hero"
-                loading="eager"
-              />
-              <span className="foto-chip">Piscina lista todo el verano</span>
+            <div className="hero-visual" aria-hidden="true">
+              <div className="hero-visual-sun" />
+              <div className="hero-visual-water" />
+              <div className="hero-visual-wave hero-visual-wave-1" />
+              <div className="hero-visual-wave hero-visual-wave-2" />
+              <div className="hero-visual-float" />
+              <div className="hero-visual-chip">Piscina lista todo el verano</div>
             </div>
 
             <div className="subtitulo">Plan recomendado</div>
